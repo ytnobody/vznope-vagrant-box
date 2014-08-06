@@ -10,7 +10,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box_url = "https://raw.githubusercontent.com/ytnobody/vznope-vagrant-box/master/centos6.5-vzn-x86_64.box"
+  config.vm.box_url = "http://ytnobody.net/boxes/centos6.5-vzn-x86_64.box"
   config.vm.box = "centos6.5-vzn-x86_64"
 
   # Disable automatic box update checking. If you disable this, then
